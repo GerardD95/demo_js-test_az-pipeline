@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="C:\Users\gerar\OneDrive\Documenten\Coding\js-testing-introduction\tests\util.test.js" errors="0" package="C:\Users\gerar\OneDrive\Documenten\Coding\js-testing-introduction\tests\util.test.js" hostname="localhost" tests="1" failures="0" time="1.205" timestamp="2022-02-03T23:26:41">
+    <properties>
+    </properties>
+    <testcase classname="should print an uppercase text" name="should print an uppercase text" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
