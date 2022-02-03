@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="11" lines-covered="9" line-rate="0.8181999999999999" branches-valid="0" branches-covered="0" branch-rate="1" timestamp="1643851836872" complexity="0" version="0.1">
+  <sources>
+    <source>C:\Users\gerar\OneDrive\Documenten\Coding\js-testing-introduction</source>
+  </sources>
+  <packages>
+    <class name="util.js" filename="util.js" line-rate="0.8181999999999999" branch-rate="1">
+      <methods>
+        <method name="(anonymous_0)" hits="1" signature="()V">
+          <lines>
+            <line number="3" hits="1"/>
+          </lines>
+        </method>
+        <method name="(anonymous_1)" hits="1" signature="()V">
+          <lines>
+            <line number="4" hits="1"/>
+          </lines>
+        </method>
+        <method name="(anonymous_2)" hits="0" signature="()V">
+          <lines>
+            <line number="11" hits="0"/>
+          </lines>
+        </method>
+        <method name="(anonymous_3)" hits="0" signature="()V">
+          <lines>
+            <line number="12" hits="0"/>
+          </lines>
+        </method>
+      </methods>
+      <lines>
+        <line number="1" hits="1" branch="false"/>
+        <line number="3" hits="1" branch="false"/>
+        <line number="4" hits="1" branch="false"/>
+        <line number="5" hits="1" branch="false"/>
+        <line number="6" hits="1" branch="false"/>
+        <line number="7" hits="1" branch="false"/>
+        <line number="11" hits="1" branch="false"/>
+        <line number="12" hits="0" branch="false"/>
+        <line number="13" hits="0" branch="false"/>
+        <line number="17" hits="1" branch="false"/>
+        <line number="18" hits="1" branch="false"/>
+      </lines>
+    </class>
+  </packages>
+</coverage>
