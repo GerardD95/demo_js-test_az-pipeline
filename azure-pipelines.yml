@@ -21,6 +21,7 @@ steps:
   displayName: 'npm install'
   
 - script: npm test
+  displayName: 'unit test'
 
 - task: PublishTestResults@2
   condition: succeededOrFailed()
@@ -29,8 +30,10 @@ steps:
     testResultsFiles: '**/test-results.xml'
     failTaskOnFailedTests: true
     testRunTitle: 'Jest tests'
+  displayName: 'publish test results'
 
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: Cobertura
     summaryFileLocation: $(System.DefaultWorkingDirectory)/coverage/cobertura-coverage.xml
+  displayName: 'publish code coverage results'
